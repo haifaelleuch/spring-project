@@ -17,7 +17,7 @@ public class Evenement {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
+// attribut titre
     @NonNull
     private String titre;
 
