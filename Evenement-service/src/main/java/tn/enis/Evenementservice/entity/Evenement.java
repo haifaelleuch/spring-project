@@ -13,6 +13,7 @@ import java.util.Date;
 @Setter
 @NoArgsConstructor
 public class Evenement {
+    //les attributs
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
